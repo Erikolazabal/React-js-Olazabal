@@ -1,0 +1,28 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    overflow: hidden;
+    background-color: #f3f3f3;
+    align-content: center;
+    font-family: 'arial';
+  }
+
+  
+  li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 50px;
+    text-decoration: none;
+}
+  
+  li a:hover {
+    background-color: #0000008c;
+    color: #ffffff;
+  }
+
+  li.logoIzq {
+    margin-right: 100px;
+}
