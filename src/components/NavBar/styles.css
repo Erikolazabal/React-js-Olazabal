@@ -11,18 +11,44 @@
   align-items: center;
 }
 
-  
-  li a {
-    display: block;
-    color: rgb(0, 0, 0);
-    text-align: center;
-    padding: 14px 50px;
-    text-decoration: none;
+.navbarStyle li a {
+  display: block;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 14px 50px;
+  text-decoration: none;
+}
+
+.navbarStyle li a:hover {
+  background-color: #0000008c;
+  color: #ffffff;
+}
+
+
+.navbarStyle-dark {
+  list-style-type: none;
+  margin: 0;
+  margin-bottom: 0px;
+  padding: 0;
+  display: flex;
+  overflow: hidden;
+  background-color: #222222;
+  align-content: center;
+  font-family: 'arial';
+  align-items: center;
 }
   
-  li a:hover {
-    background-color: #0000008c;
-    color: #ffffff;
+.navbarStyle-dark li a {
+  display: block;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 14px 50px;
+  text-decoration: none;
+}
+  
+.navbarStyle-dark li a:hover {
+    background-color: #6b6b6b8c;
+    color: #000000;
   }
 
   li.logoIzq {

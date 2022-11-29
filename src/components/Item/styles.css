@@ -1,15 +1,38 @@
-.card-detail {
+ .card-detail{
     display: flex;
     flex-direction: column;
     gap: 10px;
     padding: 15px;
     border: solid 2px rgb(217, 255, 0);
+    animation: slideUp 1s ease;
     background-color: rgb(255 255 255 / 30%);
     color: black;
+    transition: .3s ease;
     font-size: large;
     justify-content: center;
     align-items: center;
     border-radius: 8px;
+}
+
+
+@keyframes slideUp {
+    0%, 5% {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    90%, 100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@media (hover: hover) and (pointer: fine) {
+    .card-detail:hover{
+        cursor: pointer;
+        color: rgb(44, 44, 44);
+        transition: .3s ease;
+        box-shadow: 4px 4px 10px 4px rgb(100, 100, 100);
+    }
 }
 
 .datosBurgers {

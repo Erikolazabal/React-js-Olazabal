@@ -1,0 +1,101 @@
+
+.footer__ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+}
+
+.footer__ul_light{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: #000000;
+}
+
+.footer__burger{
+    color: rgb(255, 255, 255);
+    width: 80px;
+    margin: 7px;
+}
+
+.footer__burgerlight{
+    color: rgb(0, 0, 0);
+    width: 80px;
+    margin: 7px;
+}
+
+.footer__li{
+    display: flex;
+    flex-direction: row;
+    line-height: 1;
+    user-select: none;
+    padding: 1rem;
+    align-items: center;
+}
+.footer__li span{
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    font-weight: 800;
+    font-size: .7rem;
+}
+
+.footer__li_git{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer__li_git_light{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer__li_git_light span{
+    padding: 0 0.4rem;
+    font-weight: 800;
+    font-size: .8rem;
+    user-select: none;
+    margin-right: auto;
+}
+.footer__li_git_light picture{
+    color: #000000;
+    width: 30px;
+    padding: 0.2rem;
+    margin-right: auto;
+}
+
+.footer__li_git_light picture:hover{
+    background-color: #ffffff;
+    text-decoration-line: none;
+}
+
+.footer__li_git span{
+    padding: 0 0.4rem;
+    font-weight: 800;
+    font-size: .8rem;
+    user-select: none;
+    margin-right: auto;
+}
+.footer__li_git picture{
+    color: #ffffff;
+    width: 30px;
+    padding: 0.2rem;
+    margin-right: auto;
+}
+
+.footer__li_git picture:hover{
+    background-color: #222222;
+    text-decoration-line: none;
+}
+
+.footerStyle{
+    background-color: #222222;
+}
+
+.footerStylelight{
+    background-color: #ffffff;
+}

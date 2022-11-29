@@ -4,5 +4,17 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: url(../../../public/img/backgroundBurger.jpg);
+    background-image: url(../../../public/img/backgroundLight.jpg);
+}
+
+.item-list-container-Dark {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+    gap: 20px;
+    justify-content: center;
+    background-image: url(../../../public/img/backgroundDark.jpg);
 }

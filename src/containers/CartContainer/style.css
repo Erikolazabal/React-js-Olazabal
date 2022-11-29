@@ -1,0 +1,97 @@
+.displayflex{
+    display: flex;
+    width: 50%;
+    min-height: 600px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formcart {
+    width: 50%;
+    padding: 80px;
+}
+
+.botonconfir{
+    height: 60px;
+}
+
+.bgcart{
+    box-shadow: 7px 7px 5px 2px rgb(0 0 0 / 80%);
+    display: flex;
+    flex-direction: row;
+    margin: 0 100px;
+    min-width: 750px;
+    background-color: white;
+    overflow-y: hidden;
+    padding: 1.5rem;
+    margin-bottom: 100px;
+}
+
+.vacio{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 202px;
+}
+
+.noItemsimg{
+    width: 367px;
+}
+
+.columnright{
+    margin-left: 30px;
+}
+
+.textone{
+    font-size: 3.5rem;
+    font-weight: 800;
+}
+
+.textwo{
+    color: #8d8d8d;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.mejora{
+    color: black;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    margin: 20px;
+    gap: 8px;
+    font-size: 1.5em;
+}
+
+button.botonvaciar.btn.p-3 {
+    background-color: red;
+    color: white;
+}
+
+.precioTotal {
+    font-size: larger;
+    margin-top: 90px;
+    margin-right: 20em;
+}
+
+.swal2-icon.swal2-success {
+    border-color: #a5dc86;
+    color: #a5dc86;
+    overflow: hidden;
+}
+
+.swal2-title {
+    position: relative;
+    max-width: 100%;
+    margin: 0;
+    padding: 0.8em 1em 0;
+    color: inherit;
+    font-size: 1.875em;
+    font-weight: 600;
+    text-align: center;
+    overflow: hidden;
+    text-transform: none;
+    word-wrap: break-word;
+}

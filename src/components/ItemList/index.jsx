@@ -1,11 +1,14 @@
-import React from "react";
+import React, { useContext } from "react";
 import Item from "../Item";
+import { Theme } from '../../contexts/Theme';
 import './styles.css';
 
-//Se encarga de hacer el map con los productos
+
 const ItemList = ({ products }) => {
+
+    const {themeColor} = useContext(Theme);
     return (
-        <div className="item-list-container">
+        <div className={themeColor === "light" ? "item-list-container" : "item-list-container-Dark"} >
             {products.map((product) => {
                 return <Item key={product.id} product={product} />;
             })}
