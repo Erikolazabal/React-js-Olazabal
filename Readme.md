@@ -1,4 +1,4 @@
-# **Olazabal Erik  - React | Comisión 40275 **
+# **Olazabal Erik  - React | Comisión 40275**
 ## E-commerce burgerss
 ### Descripción del Proyecto : 
 
